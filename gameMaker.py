@@ -1,5 +1,5 @@
-# from dumb import Dumb
-# from medium import Medium
+from dumb import Dumb
+from medium import Medium
 from smart import Smart
 
 def gameMaker(level):
