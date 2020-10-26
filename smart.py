@@ -121,5 +121,5 @@ class Smart(Game):
                         self.board.findRefByValue(i, j), self.playerTurn)
                 else:
                     self.board.insertMove(random.choice(
-                        range(1, 9)), self.playerTurn)
+                        range(1, 10)), self.playerTurn)
             self.switchPlayer()
