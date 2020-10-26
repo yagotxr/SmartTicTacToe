@@ -3,9 +3,11 @@ from medium import Medium
 from smart import Smart
 
 def gameMaker(level):
-    if level is 1:
+    if level == 1:
         return Dumb()
-    if level is 2:
+    if level == 2:
         return Medium()
-    if level is 3:
+    if level == 3:
         return Smart()
+    else:
+        raise Exception('Level inválido')
