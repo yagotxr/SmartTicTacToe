@@ -9,7 +9,6 @@ class Dumb(Game):
         list_choices = [i for i in range(1, 10)]
 
         while True:
-            os.system("clear")
             self.board.draw()
 
             winner = self.board.hasWinner()

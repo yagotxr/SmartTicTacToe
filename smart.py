@@ -92,7 +92,6 @@ class Smart(Game):
         started = False
 
         while True:
-            os.system("clear")
             self.board.draw()
 
             winner = self.board.hasWinner()

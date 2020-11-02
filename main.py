@@ -1,6 +1,6 @@
 from gameMaker import gameMaker
   
-print("|X|X|X||- TicTacToe -||O|O|O|")
+print("|X|X|X||- Jogo da Velha -||O|O|O|")
 
 def start():
     try:
